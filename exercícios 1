@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+ int fd (int x){
+    int dobro;
+    dobro = x*2;
+    return dobro;
+    }
+  int main()
+ {
+    int x;
+    cin>>x;
+    cout<<fd(x);
+   
+    return 0;
+   
+ }
